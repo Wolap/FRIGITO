@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu {
+    background-color: rgb(90, 90, 88);
+    display: flex;
+    padding: 20px;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-between;
+    border: 5px solid rgb(0, 0, 0);
+}
+.menu-logo {
+    width: 10%;
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+
+}
+.menu-logo img {
+    width: 40%;
+}
+
+.BoutonNav {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 175%;
+    font-family: 'Exo';
+    gap: 50px;
+    justify-content: center;
+    width: 80%;
+}
+
+.ImagesMenu {
+    width: 10%;
+    display: flex;
+}
+
+.ImagesMenu img {
+    width: 50%;
+    display: block;
+    height: auto;
+}
+
+.MilieuSite {
+    background: rgb(90, 90, 88);
+    height: 120vh;
+    padding-top: 2%;
+}
+
+.PremiereLigne .TitreBoutique {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 400%;
+    color: white;
+    text-align: center;
+}
+
+.PremiereLigne .p1 {
+    font-family: 'Exo';
+    font-size: 200%;
+    text-align: center;
+}
+
+.DeuxiemeLigne {
+    background: linear-gradient(rgb(90, 90, 88), rgb(236, 235, 231));
+    padding: 5%;   
+    justify-content: center;
+    min-width: 100%;
+    min-height: 1000px;
+    display: flex;
+    
+}
+
+.DeuxiemeLigne .Texte {
+    height: 725px;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+
+
+
+.Texte .p2 {
+    padding-left: 5%;
+    padding-top: 5%;
+    font-size: 200%;
+    font-family: 'Exo';
+    color: rgb(0, 0, 0); 
+}
+
+.Texte .p3 {
+    padding-left: 5%;
+    padding-top: 5%;
+    font-size: 200%;
+    font-family: 'Exo';
+    color: rgb(0, 0, 0); 
+}
+
+.Texte .p4 {
+    padding-left: 5%;
+    padding-top: 5%;
+    font-size: 200%;
+    font-family: 'Exo';
+    color: rgb(0, 0, 0); 
+}
+
+.Texte .p5 {
+    padding-left: 5%;
+    padding-top: 5%;
+    font-size: 200%;
+    font-family: 'Exo';
+    color: rgb(0, 0, 0); 
+}
+
+.Footer {
+    background-color: rgb(90, 90, 88);
+    display: flex;
+    padding: 40px;
+    border: 5px solid rgb(0, 0, 0);
+    height: 225px;
+}
+
+.Adresse {
+    height: 150px;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2%;
+}
+
+.Adresse .LogoMap {
+    width: 7%;
+}
+
+.Adresse .TitreAdresse {
+    font-family: 'Exo';
+}
+
+.Adresse .p6 {
+    font-family: 'Exo';
+    font-size: 115%;
+}
+
+.Contacts {
+    height: 150px;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+}
+
+.Contacts .LogoTel {
+    width: 7%;
+}
+
+.Contacts .TitreContacts {
+    font-family: 'Exo';
+}
+
+.Contacts .p7 {
+    font-family: 'Exo';
+    font-size: 115%; 
+}
+
+.Contacts .p8 {
+    font-family: 'Exo';
+    font-size: 115%; 
+}
+
+.Frigito {
+    height: 150px;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2.5%;
+}
+
+.Frigito .TitreBoutique {
+    width: 10%;
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+}
+
+.Frigito .p9 {
+    font-family: 'Exo';
+    font-size: 115%;
+}
